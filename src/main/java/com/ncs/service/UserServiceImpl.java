@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService{
 			return user.get();
 		}
 	
-		throw new UserException("User Not Found....!!!!!");
+		throw new UserException("User Not Found....");
 	}
 
 	@Override
