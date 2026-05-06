@@ -99,7 +99,7 @@ public class ProductServiceImpl implements ProductService{
 		
 		productRepo.delete(product);
 
-		return "Product Deleted Successfullyyyyy...!!!";
+		return "Product is now Deleted Successfullyyyyy...!!!";
 	}
 
 	@Override
